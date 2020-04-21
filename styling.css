@@ -1,0 +1,122 @@
+#track
+{
+	box-shadow: 2px 2px 2px 2px rgba(235,235,222,0.5);
+	height: 645px;
+	width: 1260px;
+	position: absolute;
+	margin-top: -655px;
+	margin-left: 90px;
+}
+
+#header
+{
+	position: absolute;
+	width: 1260px;
+	height: 40px;
+	background-color:#154360;
+}
+
+#address
+{
+	position: absolute;
+	float: left;
+	height: 603px;
+	width: 550px;
+	margin-top: 40px;
+}
+
+#nav
+{
+	position: absolute;
+	height: 43px;
+	width: 535px;
+	background-color: #d0d3d4 ;
+}
+
+#content
+{
+	position: absolute;
+	height: 560px;
+	width: 535px;
+	margin-top: 33px;
+/*	margin-left: -91px;*/
+	box-shadow: 0px 0px 1px 0px rgba( 179, 182, 183 ,2.5);
+	visibility: hidden;
+}
+
+#search-bar
+{
+	position: absolute;
+	width: 386px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border: 1px solid #ecf0f1;
+	background-color:  #f0f3f4 ;
+}
+
+.boxes
+{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-left: 400px;
+	margin-top: 10px;
+	border: 1px solid #ecf0f1;
+	background-color:  #f0f3f4 ;	
+}
+
+#add-name
+{
+	position: absolute;
+	width: 519px;
+	height: 30px;
+	margin-left: 10px;
+	margin-top: 45px;
+	border: 1px solid #ecf0f1;
+	background-color:  #f4f6f7 ;
+}
+
+h6
+{
+	margin-left: 200px;
+	float: left;
+}
+
+#table
+{
+	margin-top: 80px;
+	margin-left: 10px;
+	position: absolute;
+}
+
+#map
+{
+	position: absolute;
+	height: 606px;
+	width: 720px;
+	/*background-color: #d0d3d4 ;*/
+	margin-left: 535px;
+	box-shadow: 0px 0px 1px 0px rgba( 179, 182, 183 ,2.5);
+	 
+}
+
+#XLS
+{
+	height: 35px;
+	width: 250px;
+	margin-top: 255px;
+	float: left;
+	background-color: #234292;
+	color:white;
+}
+
+#PDF
+{
+	height: 35px;
+	width: 243px;
+	margin-top: 255px;
+	margin-left: 257px;
+	background-color: #234292;
+	color:white;
+}

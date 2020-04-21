@@ -1,0 +1,523 @@
+html,body {
+    overflow: auto;
+}
+
+#leftbar
+{
+	width: 90px;
+	height: 673px;
+	background-color: #07163d;
+	margin-left: -10px;
+	margin-top: -10px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+#logo
+{
+	width: 78px;
+	height: 78px;
+	border-radius: 40px;
+	background-color: #02050f;
+	border: 1px solid rgba(255,255,255,0.2);
+	margin-top: 12px;
+	position: absolute;
+	margin-left: 8px;
+}
+
+.sub-logo
+{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 23px;
+}
+
+#icons
+{
+	width: 42px;
+	height: 71px;
+	position: absolute;
+	margin-left: 12px;
+	margin-top: 120px;
+}
+
+#dashboard
+{
+	position: absolute;
+	height: 35px;
+	width: 32px;
+	margin-left: 23px;
+	color:white;
+	margin-top: 200px;
+}
+
+#tracking
+{
+	position: absolute;
+	height: 35px;
+	width: 32px;
+	margin-left: 30px;
+	color:white;
+	margin-top: 280px;
+}
+
+#reports
+{
+	position: absolute;
+	height: 35px;
+	width: 32px;
+	margin-left: 26px;
+	color:white;
+	margin-top: 365px;
+}
+
+.hidden-box
+{
+	position: absolute;
+	display: none;
+	height: 72px;
+	width: 84px;
+	margin-top: -20px;
+	box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+	background-color: #1542b7;	
+	margin-left: -20px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  transition: opacity 0.1s linear;
+  z-index: 1;
+  width: 200px;
+  margin-top: -350px;
+  margin-left: 68px;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu ul li {
+  color: black;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-left: -40px;
+  padding: 0px;
+}
+
+/* Reports Dropdowns*/
+.dropdown-container-Activity
+{
+  display: none;
+}
+
+.dropdown-container-geo
+{
+  display: none;
+}
+
+.dropdown-container-sensor
+{
+  display: none;
+}
+
+.dropdown-container-Alert
+{
+  display: none;
+}
+
+.dropdown-container-maintain
+{
+  display: none;
+}
+
+.dropdown-container-Fuel
+{
+  display: none;
+}
+
+.dropdown-container-RPM
+{
+  display: none;
+}
+
+.dropdown-container-temp
+{
+  display: none;
+}
+
+.dropdown-container-job
+{
+  display: none;
+}
+
+.dropdown-container-tire
+{
+  display: none;
+}
+
+.dropdown-container-driver
+{
+  display: none;
+}
+
+.dropdown-container-OBD
+{
+  display: none;
+}
+
+.dropdown-container-trip
+{
+  display: none;
+}
+
+.dropdown-container-billing
+{
+  display: none;
+}
+
+/* Charts Dropdowns*/
+.dropdown-container-activity
+{
+  display: none;
+}
+
+.dropdown-container-alert
+{
+  display: none;
+}
+
+.dropdown-container-fuel
+{
+  display: none;
+}
+
+/* Settings Dropdowns*/
+.dropdown-container-general
+{
+  display: none;
+}
+
+.dropdown-container-master
+{
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-Activity
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 410px;
+  width: 220px;
+  position: absolute;
+  margin-top: -49px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-geo
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 190px;
+  width: 220px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-sensor
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 220px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-Alert
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 180px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-maintain
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 140px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-Fuel
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-RPM
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-temp
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-job
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 180px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-tire
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 134px;
+  width: 200px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-driver
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 270px;
+  width: 200px;
+  position: absolute;
+  margin-top: -271px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-OBD
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 180px;
+  width: 200px;
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-trip
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 46px;
+  width: 200px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-billing
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 130px;
+  width: 200px;
+  position: absolute;
+  margin-top: -116px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-activity
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 100px;
+  width: 250px;
+  position: absolute;
+  margin-top: -49px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-alert
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 46px;
+  width: 250px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-fuel
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 90px;
+  width: 250px;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-general
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 180px;
+  width: 170px;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 198px;
+}
+
+.dropdown-menu ul li:hover .dropdown-container-master
+{
+  display: block;
+  background-color: #1542b7;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  z-index: 1;
+  transition: opacity 0.1s linear;
+  height: 270px;
+  width: 170px;
+  position: absolute;
+  margin-top: -230px;
+  margin-left: 198px;
+}
+
+div.scroll
+{
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	width: 90px;
+	height: 100px;
+	background-color: #07163d;
+	margin-left: -10px;
+	margin-top: 200px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+/*.first:hover + dropdown-container
+{
+	display: block;
+}*/
+
+/*.dropdown-container a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}*/
+
+#chart
+{
+	position: absolute;
+	height: 35px;
+	width: 32px;
+	margin-left: 26px;
+	color:white;
+	margin-top: 460px;
+}
+
+#settings
+{
+	position: absolute;
+	height: 35px;
+	width: 32px;
+	margin-left: 28px;
+	color:white;
+	margin-top: 550px;
+}
